@@ -76,6 +76,7 @@ public class SeverityController {
 			for(QuestionsEntity answer: questionsList) {	
 				if(answer.getResponse().equalsIgnoreCase("No")) {
 					actualNoAnswers++;
+					
 				}
 			}
 			
