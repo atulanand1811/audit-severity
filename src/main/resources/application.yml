@@ -1,6 +1,6 @@
 audit:
   checklist:
-    url: http://13.233.71.116:9100/
+    url: http://52.66.33.94:9100/
 complete:
   fail: Process Completed - Failure
   success: Process Completed - Success
@@ -15,7 +15,7 @@ feign:
   proxy:
     exp: Feign Proxy Exception Caught
 fos:
-  auditbenchmark: http://15.206.171.199:9300/
+  auditbenchmark: http://13.127.228.55:9300/
   auth: http://13.233.165.160:9400/
 logging:
   level:
