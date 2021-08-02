@@ -1,6 +1,6 @@
 audit:
   checklist:
-    url: http://localhost:9100/
+    url: http://52.66.214.49:9100/
 complete:
   fail: Process Completed - Failure
   success: Process Completed - Success
@@ -15,8 +15,8 @@ feign:
   proxy:
     exp: Feign Proxy Exception Caught
 fos:
-  auditbenchmark: http://localhost:9300/
-  auth: http://localhost:9400/
+  auditbenchmark: http://13.232.12.127:9300/
+  auth: http://13.235.16.176:9400/
 logging:
   level:
     org:
@@ -80,5 +80,5 @@ eureka:
   client:
     enabled: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://13.233.29.69:8761/eureka/
 
